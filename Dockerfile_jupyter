@@ -1,0 +1,5 @@
+FROM kaggle/python-gpu-build
+
+RUN mkdir -p /kaggle/working && \
+    conda install -y -c conda-forge mlflow==1.9.1
+
