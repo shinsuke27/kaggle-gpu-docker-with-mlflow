@@ -15,7 +15,7 @@ $ gcloud compute instances create kaggle-compute \
 $ gcloud compute ssh kaggle-compute
 ```
 
-## Clone the repository and run set_up.sh
+## Clone this repository and run set_up.sh
 
 ```
 $ git clone https://github.com/shinsuke27/kaggle-gpu-docker-with-mlflow.git kaggle
